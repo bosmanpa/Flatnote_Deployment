@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'homepage#index'
   resources :post_tags
   resources :tags
   resources :notes
